@@ -107,6 +107,9 @@ export class Client {
             zarizeni: this.code
         }
 
+        if (!this.username || !this.password || !this.code)
+            throw new Error('You must provide username, password and code to login')
+
         const sessionId = await login(credentials)
         this.sessionId = sessionId
 

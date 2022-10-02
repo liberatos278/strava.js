@@ -1,7 +1,7 @@
 {
   "name": "@liberatos/strava.js",
   "version": "1.1.2",
-  "description": "Simple API wrapper for strava.cz",
+  "description": "Simple API wrapper for strava.cz service",
   "main": "main.js",
   "type": "module",
   "author": "Liberatos",

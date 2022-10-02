@@ -1,0 +1,31 @@
+{
+  "name": "@liberatos/strava.js",
+  "version": "1.1.1",
+  "description": "Simple API wrapper for strava.cz",
+  "main": "main.js",
+  "type": "module",
+  "author": "Liberatos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liberatos278/strava.js.git"
+  },
+  "homepage": "https://github.com/liberatos278/strava.js.git",
+  "bugs": {
+    "url": "https://github.com/liberatos278/strava.js/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "strava",
+    "api",
+    "wrapper",
+    "strava.js",
+    "meals",
+    "orders",
+    "food"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2",
+    "form-data": "^4.0.0",
+    "jsdom": "^20.0.0"
+  }
+}
